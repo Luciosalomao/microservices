@@ -4,6 +4,8 @@ using WebApiRest.Services;
 
 namespace WebApiRest.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class PessoaController : ControllerBase
     {
         private IPessoaService _pessoaService;
